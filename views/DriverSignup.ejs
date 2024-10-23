@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NewsGuard</title>
+</head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />    
+    <link rel="stylesheet" href="css/Login.css">
+    
+<body>
+
+    <nav>
+        <ul>
+            <a href="#" class="brands" id="menus" onclick="openNav()"><span
+                    class="material-symbols-outlined">menu</span></a>
+                    <a href="#" id="hola" onclick="goToHomepage()"><li class="brand"><img
+                    src="https://img.freepik.com/premium-vector/ng-logo-design_731343-216.jpg"
+                    alt="NewsGuard" width=10> NewsGuard</li></a>
+            <li class="brand1"><a href="#" onclick="goToHomepage()">Home</a></li>
+            <li class="brand1"><a href="#" onclick="goToAboutpage()">About</a></li>
+            
+            <li class="brand1">
+                <div class="dropdown">
+                <a href="#" class="services">Services</a>
+                <a href="#" class="drop">
+                    <span class="material-symbols-outlined answers">arrow_drop_down</span>
+                </a>
+                <div class="dropdown-content">
+                    <a href="#" class="dropdown-content1" onclick="goToLoginpage()"><p>Check News</p></a>
+                </div>
+            </div>
+            </li>
+                     
+            <li class="brand1"><a href="#" id="spaces" onclick="goToContactpage()">Contact Us</a></li>
+            <div class="book"><a href="#" class="Booked" onclick="goToLoginpage()">User Login</a></div>
+        </ul>
+    </nav>
+    <div id="mySidenav" class="sidenav">
+        <ul>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <li><a href="#" onclick="goToHomepage()"><span class="material-symbols-outlined">home</span>Home</a></li>
+            <li><a href="#" onclick="goToLoginpage()"><span class="material-symbols-outlined">login</span>User Login</a></li>
+            <li><a href="#" onclick="goToDriverLoginpage()"><span class="material-symbols-outlined">id_card</span> Admin Login</a>
+            <li><a href="#" onclick="goToAboutpage()"><span class="material-symbols-outlined">info</span> About Us</a></li>
+            <li><a href="#" onclick="goToContactpage()"><span class="material-symbols-outlined">contact_support</span> Contact Us</a></li>
+        </ul>
+    </div>
+<div class="form">
+  <div class="imgcontainer">
+    <span class="material-symbols-outlined">person</span>
+    <div class="importance">
+    <h2>Admin Signup</h2></div>
+  </div>
+  <% if (error) { %>
+    <p style="color: red;"><%= error %></p>
+<% } %>
+<form action="/driversignup" method="post">
+    <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter New Password" name="psw" required>
+
+        <button type="submit">Signup</button>
+    </div>
+
+    <div class="container">
+        <button type="button" class="cancelbtn" onclick="goToHomepage()">Cancel</button>
+    </div>
+</form>
+
+</div>
+<footer>
+    <p>&copy; 2024 NewsGuard. All rights reserved.</p>
+</footer>
+<script src="/js/script.js"></script></script>
+</body>
+</html>

@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#hola{
+    color:white;
+}
+
+#space1{
+    padding: 2px;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style-type: none;
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    justify-content: flex-start;
+}
+
+nav ul li {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 1vw;
+    float: left;
+}
+
+.services{
+    display: flex;
+    padding-top: 1.3vw;
+}
+
+#id{
+    cursor:pointer;
+    margin-left: 0.5vw;
+}
+
+.content{
+    width: 90%;
+    height: 40vw;
+    font-family: "Alegreya", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#spaces {
+    padding-left: 0rem; 
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.dropdown-content1{
+    color: #111;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+  
+.answers{
+    margin-right: -0.7rem;
+    margin-left: 4vw;
+    margin-top: -10rem;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+.brand img {
+    width: 6vw;
+    padding: 0 0.5vw;
+    margin-left: -2vw;
+}
+
+a:hover {
+    color: rgb(185, 107, 107);
+}
+
+a {
+    color:aqua;
+}
+
+.brand {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.Booked {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-color: blueviolet;
+    padding: 0.5vw;
+    height: 2vw;
+    width: 100%; 
+    border-radius: 7px;
+    font-size: 1rem; 
+}
+
+.brand1{
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.book {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1vw;
+    display: flex;
+    margin-left: auto;
+}
+
+.brands{
+    padding: 1vw;
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 1vw;
+    font-size: 3vw;
+    margin-left: 2vw;
+  } 
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 4vw;
+    margin-top: auto;   
+}
+footer p{
+    padding: 1.4vw;
+}
+  
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #c2e8d3;
+    width: 100%;
+    height: 30vh;
+    margin: 2vh;
+    border-radius: 2vh;
+    padding: 3vw;
+    box-sizing: border-box;
+    font-family: "Alegreya", serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+    overflow: auto;
+}
+
+.contents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Work Sans", sans-serif;
+    flex-wrap: wrap;
+}
+
+.importance {
+    padding: 3vw;
+    filter: drop-shadow(0 0 0.75rem rgb(92, 19, 19));
+}
+
+/* Responsive Adjustments */
+@media only screen and (max-width: 768px) {
+    nav ul li {
+        padding: 0 0.5vw;
+    }
+
+    .brand img {
+        width: 10vw; 
+        padding: 0 1vw;
+    }
+    .Booked {
+        padding: 1vw;
+        width: 10vw;
+        height: 9vw;
+        font-size: 0.8rem;
+    }
+
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+
+
+    .brand{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        font-weight: bolder;
+        font-size: 1rem;
+        font-family: "Red Hat Display", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+    }    
+
+    .brand1{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        font-weight: bolder;
+        font-size: 0.7rem;
+        font-family: "Red Hat Display", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+    }    
+
+}
+
+
+@media (100px <= width <= 768px)
+{
+    .brand{
+        display: none;
+        font-family: "Red Hat Display", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+    }
+}
+
+.content{
+    overflow: auto;
+    font-family: "Alegreya", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}

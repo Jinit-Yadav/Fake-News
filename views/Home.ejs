@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NewsGuard</title>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCCAGPNVBLaEZQPnrUDHwhDnFvdPIxCqKs&libraries=places&callback=initMap" async defer></script>
+
+</head>
+<link rel="stylesheet" href="css/Home1.css">
+<link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />    
+
+<body>
+
+    <nav>
+        <ul>
+            <a href="#" class="brands" id="menus" onclick="openNav()"><span
+                    class="material-symbols-outlined">menu</span></a>
+                    <a href="#" id="hola" onclick="goToHomepage()"><li class="brand"><img
+                    src="https://img.freepik.com/premium-vector/ng-logo-design_731343-216.jpg"
+                    alt="NewsGuard" width=10> NewsGuard</li></a>
+            <li class="brand1"><a href="#" onclick="goToHomepage()">Home</a></li>
+            <li class="brand1"><a href="#" onclick="goToAboutpage()">About</a></li>
+            
+            <li class="brand1">
+                <div class="dropdown">
+                <a href="#" class="services">Services</a>
+                <a href="#" class="drop">
+                    <span class="material-symbols-outlined answers">arrow_drop_down</span>
+                </a>
+                <div class="dropdown-content">
+                    <a href="#" class="dropdown-content1" onclick="goToLoginpage()"><p>Check News</p></a>
+                </div>
+            </div>
+            </li>
+                     
+            <li class="brand1"><a href="#" id="spaces" onclick="goToContactpage()">Contact Us</a></li>
+            <div class="book"><a href="#" class="Booked" onclick="goToLoginpage()">User Login</a></div>
+        </ul>
+    </nav>
+    <div id="mySidenav" class="sidenav">
+        <ul>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <li><a href="#" onclick="goToHomepage()"><span class="material-symbols-outlined">home</span>Home</a></li>
+            <li><a href="#" onclick="goToLoginpage()"><span class="material-symbols-outlined">login</span>User Login</a></li>
+            <li><a href="#" onclick="goToDriverLoginpage()"><span class="material-symbols-outlined">id_card</span> Admin Login</a>
+            <li><a href="#" onclick="goToAboutpage()"><span class="material-symbols-outlined">info</span> About Us</a></li>
+            <li><a href="#" onclick="goToContactpage()"><span class="material-symbols-outlined">contact_support</span> Contact Us</a></li>
+        </ul>
+    </div>
+    <main>
+        <div class="box"></div>
+    <h2 class="Intro">Welcome to NewsGuard</h2>
+    <div class="container">
+        <div class="info">At NewsGuard, we know the importance of accurate information, which is why we’ve developed a reliable platform to detect and flag fake news effortlessly.</div>
+        <div class="info1">Whether you’re verifying articles, assessing content, or ensuring authenticity, NewsGuard is your trusted solution for uncovering fake news and maintaining information integrity.</div>
+        <div class="info2">Experience the ease of spotting misinformation with NewsGuard. Detect fake news today and trust the information you consume!</div>
+    </div>
+</main>
+    <div class="importance">
+        <h2>Making a difference</h2>
+    </div>
+    <div class="contents">
+        <div class="content c1">
+            <h3>Effortless Fake News Detection Starts Here:</h3>
+            <p>Say goodbye to misinformation with our Fake News Detector. You can now analyze, classify, and verify news articles in minutes.</p>
+        </div>
+        <div class="content c2">
+            <h3>Your News, Your Truth:</h3>
+            <p>Detecting fake news is simple with our tool. You can upload any news article, receive instant verification results, and rate the tool’s performance to help us improve.</p>
+        </div>
+        <div class="content c3">
+            <h3>Ready to Experience Truthful News?</h3>
+            <p>Visit our platform today and test your first article. We're confident you'll appreciate how easy it is to identify real news!</p>
+        </div>
+        <div class="content c4">
+            <h3>Focus on Accuracy:</h3>
+            <p> At Fake News Detector, accuracy is our priority. We use advanced machine learning algorithms to ensure reliable results, giving you confidence in your news consumption.</p>
+        </div>
+        <div class="content c5">
+            <h3>Transparency and Trust:</h3>
+            <p>We offer clear analysis with reliable results. You'll receive detailed explanations with each check, ensuring no ambiguity in identifying fake news.</p>
+        </div>
+    </div>
+    <script src="/js/script.js"></script>
+    <script src="/js/main.js"></script>
+    <footer>
+        <p>&copy; 2024 NewsGuard. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
